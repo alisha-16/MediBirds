@@ -7,9 +7,12 @@ The Medical E-commerce Website offers various features that make it a one-stop-s
 
 Product Catalog - The website offers a comprehensive product catalog that includes a wide range of medical products such as medical devices, health supplements, and pharmaceuticals.
 
-User Accounts - Customers can create an account on the website to save their personal information, track their orders, and view their order history.
+**User Accounts** - Customers can create an account on the website to save their personal information, track their orders, and view their order history.
 
-Shopping Cart - Customers can add items to their shopping cart and proceed to checkout to complete their purchase.
+**Shopping Cart** - Customers can add items to their shopping cart and proceed to checkout to complete their purchase.
+
+**Admin Panel** - The admin panel allows the website owner to manage the products, orders, and customers. The admin can add new products, update product information, view products information ,delete product information and manage customer accounts.
+
 
 # Design and Navigation
 
