@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="pmodify.css">
+        <style>
+            #textbox{
+                font-size: 25px;
+                background-color: rgb(12, 106, 106);
+                color: white;
+                width: 78%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="org">
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="img/logo2.jpg" alt = "not found" usemap = "#hmap">
+                    <map name = "hmap">
+                        <area shape = "circle" coords = "0,0,280,250" href = "prodhmpg.php">
+                        </map>
+                </div>  
+                <div class="menu">
+                    <ul>
+                        <li><a class="active" href="prdcreate.html">Create</a></li>
+                        <li><a href="pmodify.html">Modify</a></li>
+                        <li><a href="prdtdelete.html">delete</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </header>
+    
+    <div class="cen">
+        <div class="b">
+            <div class="div1"> 
+    
+            <font id="content">
+                <form method="post" action="pmodify.php">
+                <br><br>        
+                <input type="text"  name="Name" placeholder="Enter product name" required><br><br>
+                    
+                    <SELECT id="textbox" NAME="QTY">
+                        <OPTION  value="0"> CHOOSE CATEGORY </OPTION>
+                        <OPTION  value="1"> SURGICAL </OPTION>
+                        <OPTION  value="2" > MEDICAL </OPTION >
+                        <OPTION  value="3" > COVID </OPTION >
+                     </SELECT> <br><br>
+                    <input type="number" name="price" placeholder=" Enter product price " required><br><br>
+                    
+                    <input style="font-family:'Garamond';font-size: 24px; " type="submit" id="h" value="MODIFY">
+                    
+                    </form>
+             </font>
+          </div>
+        </div>  
+            
+    </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+}
+body{
+  background-image: url("img/art2.jpg");
+	background-size:cover;
+	block-size:300px;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    height: 300px;
+    background-repeat: repeat-y;
+    position: relative;
+      overflow-x:hidden;
+}
+.logo img{
+  float: left;
+  width: 200px;
+  height: auto;
+  border: 7px solid white;
+  border-radius: 50%;
+  }
+.b{
+   
+	padding-top:8%;
+	padding-bottom:20%;
+	padding-left:24%;
+	padding-right:24%;
+   
+  }
+  .div1
+  {
+   background-color:cornsilk;
+   border:5px solid black;
+   padding:5%;
+   box-shadow:  0 6px 20px 0 peachpuff, 0 6px 20px 0 peachpuff;  
+  
+  }
+  #content{
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 30px;
+    color: #493425;
+	
+	
+  }
+ 
+input {
+  width: 78%;
+  padding-right:40px;
+  padding-left:5px;
+  padding-bottom:10px;
+  border: 0;
+  outline:0;
+  
+   background: transparent;
+   border-bottom: 2px solid black;
+   float:center;
+   font-size:18px;
+   
+  }	
+  input[type=submit]
+  {
+    color:white;
+  
+   width:30%;
+   padding-top:2%;
+   padding-bottom:2%;
+   padding:2%;
+   background-color: rgba(95, 223, 138, 0.596);
+  color: #493425;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight:bold;
+   
+ }
+ #h:hover
+ {
+  background-color:darkgreen;
+  color:white;
+  
+  }
+  #textbox{
+  
+  font-size: 80%;
+}

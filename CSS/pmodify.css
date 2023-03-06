@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+}
+.logo img{
+    float: left;
+    width: 180px;
+    height: auto;
+    border: 7px solid white;
+    padding-top:0%;
+    padding-left:0%;
+    margin-top:0%;
+    margin-right:2%;
+    }
+    
+.main{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0);
+    border-bottom: 0px;
+}
+.main ul{
+    list-style: none;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.main ul li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 80px;
+    background-color: rgb(109, 61, 26);
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 5px solid white;
+}
+.main ul li a:hover{
+    background: rgba(245, 209, 179, 0.739);
+    color: black;
+}
+.org{
+    
+    background-image: url(img/blue-wall-zoom-background-29tb6sl3kjuor7tj.jpg);
+    height: 664px;
+    width: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .cen{
+      padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 50%;
+  }
+  #hero-text{
+    text-shadow:5px 5px 5px black;
+    color: white;
+    font-size: 80px;
+  }
+
+
+
+
+
+
+  
+  .div1
+  {
+   background-color:rgba(226, 250, 88, 0.096);
+   border:2px groove black;
+   padding:5%;
+   padding-top:2%;
+   box-shadow:  0 6px 20px 0 white, 0 6px 20px 0 white;
+   border-radius:80px;
+  
+  }
+ 
+#content{
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 30px;
+    color: white;
+	
+	
+  }
+ 
+input {
+  width: 78%;
+  padding-right:40px;
+  padding-left:5px;
+  padding-bottom:10px;
+  border: 0;
+  outline:0;
+  
+   background: transparent;
+   border-bottom: 2px solid white;
+   float:center;
+   font-size:18px;
+   color:white;
+   
+  }	
+  ::placeholder{
+  color:white;
+  }
+  input[type=submit]
+  {
+    color:white;
+  
+   width:30%;
+   padding-top:2%;
+   padding-bottom:2%;
+   padding:2%;
+   background-color:white;
+  color: #493425;
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight:bold;
+   
+ }
+ #h:hover
+ {
+  background-color:black;
+  color:white;
+  
+  }
+  #textbox{
+  
+  font-size: 80%;
+}

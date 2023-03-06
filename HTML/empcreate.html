@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="empcreate.css">
+    </head>
+    <body>
+        <div class="org">
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="img/logo2.jpg" alt = "not found" usemap = "#hmap">
+                    <map name = "hmap">
+                        <area shape = "circle" coords = "0,0,280,250" href = "emphmpg.php">
+                        </map>
+                </div>  
+                <div class="menu">
+                    <ul>
+                        <li><a class="active" href="empcreate.html">Create</a></li>
+                        <li><a href="emodify.html">Modify</a></li>
+                        <li><a href="empdelete.html">delete</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </header>
+    
+    <div class="cen">
+        <div class="b">
+            <div class="div1"> 
+    
+            <font id="content">
+                <form method="post" action="empcreate.php">
+                <br><br>
+            
+                    <input type="text"  name="Name" placeholder="Enter your Name" required><br><br>
+                
+                    
+                    <input type="email"  name="EID" placeholder=" Enter a valid employee Id" required ><br><br>
+                    
+                    <input type="password"  name="Password" placeholder=" Enter your Password" required><br><br>
+                    <input type="number"  name="phone" placeholder=" Enter your phone no.{eg +123456}" required><br><br>
+                    
+                    <input style="font-family:'Garamond';font-size: 24px; " type="submit" id="h" value="CREATE">
+                    
+                    </form>
+             </font>
+          </div>
+        </div>  
+            
+    </div>
+    </div>
+    </body>
+</html>

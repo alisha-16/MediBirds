@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+}
+header{ 
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  position: fixed; 
+width: 100%;
+background-size: cover;
+background-position: center;
+background-color: darkcyan;
+z-index: 1;
+}
+.menu{
+width: 400px;
+float: left;
+height: 70px;
+}
+ul.k{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+word-wrap: break-word;
+}
+ul li.h{
+list-style-type:none;
+margin-left: 10px;
+margin-top: 27px;
+}
+ul li a.m{
+background-color: darkcyan;
+color: #fff;
+padding: 5px 20px;
+transition: 0.4s ease-in-out;
+border: 0;
+}
+.logo img{
+float: left;
+width: 200px;
+height: auto;
+}
+
+li a.m:hover:not(#active) {
+background-color: green;
+}
+
+#active {
+background-color: #04AA6D;
+}
+
+.dropbtn{
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: darkcyan;
+color: #fff;
+padding: 5px 16px;
+border: 0px;
+
+transition: 0.4s ease-in-out;
+}
+.dropdown {
+  font-size: 16px;  
+  border: 0;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  float: left;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 0;
+}
+
+.dropdown-content a.l {
+  background-color: #04AA6D;
+  float: none;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: 0;
+  border-radius: 0%;
+}
+
+.dropdown-content a.l:hover {
+  background-color: white;
+  color: green;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.div1{
+    background-color: rgb(170, 255, 170);
+}
+.images{
+    margin: 2%;
+    margin-top: 0;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+.photo img{
+    float:left;
+    margin-left: 50%;
+}
+#textbox{
+    position: absolute;
+  top: 250px;
+  left: 10px;
+  bottom: 120px;
+  
+}
+#styleM{
+    font-size: 40px;
+    word-wrap: break-word;
+  color: white;
+  
+  background-color: rgba(99, 120, 240, 0.959);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.287), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+}
+a.butn:link, a.butn:visited {
+    background-color: white;
+    color:rgb(45, 42, 240);
+    font-weight: 900;
+    border: 2px groove rgb(128, 109, 0);
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a.butn:hover, a.butn:active {
+    background-color: green;
+    color: white;
+  }
+  .butn{
+      font-size: 10px;
+      margin-left: 19%;
+  }
+  .div2{
+      background-color: antiquewhite;
+      padding-left: 18%;
+  }
+  #styleH1{
+      font-family: Garamond;
+      word-wrap: break-word;
+      padding-right: 18%;
+      font-size: 40px;
+  }
+  .div3{
+    background-color: rgb(215, 245, 250);
+}
+.images2{
+    
+    display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+.photo2 img{
+    border: 2px groove goldenrod;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-block-size: 200px;
+    padding : 5px;
+    margin-left:2%;
+    margin-right: 2%;
+  }
+#styleH2{
+    font-family: Garamond;
+    word-wrap: break-word;
+    padding-right: 12%;
+    padding-left: 12%;
+    font-size: 40px;
+}
+.div4{
+    background-color: rgb(172, 251, 172);
+    padding-left: 18%;
+}
+.div5{
+  background-color:antiquewhite; 
+  padding-left: 18%;
+}
+.div6{
+  background-color: rgb(215, 245, 250);
+}
+.div7{
+  background-color: rgb(172, 251, 172);
+  padding-left: 18%;
+}
+.div8{
+  background-color:antiquewhite; 
+  padding-left: 18%;
+}
+.div9{
+  background-color:rgb(172, 251, 172); 
+  padding-left: 18%;
+}
+.div10{
+  background-color:antiquewhite; 
+  padding-left: 18%;
+}

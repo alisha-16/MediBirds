@@ -1,0 +1,51 @@
+.k1{
+    float: left;
+    padding-top: 0;
+height: 150px;
+width: 100%;
+object-fit: scale-down;
+  }
+
+  .row{
+    background-image: url(img/footer.jpeg);
+    background-size:1300px 700px;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  }
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-bottom: 0;
+    width: 25%;
+    color: darkorange;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    box-sizing: border-box;
+	
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+    
+  }
+  h2.b{
+    font-size: 30px;
+    padding: 0;
+  }
+  .f1{
+ 
+ color : darkorange;
+ font-family: poppins;
+ font-size:21px;
+ font-weight: bold;
+ 
+  }
