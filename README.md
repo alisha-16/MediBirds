@@ -5,7 +5,7 @@ The Medical E-commerce Website is an online platform designed to provide medical
 
 The Medical E-commerce Website offers various features that make it a one-stop-shop for all medical needs. Some of the key features of the website include:
 
-Product Catalog - The website offers a comprehensive product catalog that includes a wide range of medical products such as medical devices, health supplements, and pharmaceuticals.
+**Product Catalog** - The website offers a comprehensive product catalog that includes a wide range of medical products such as medical devices, health supplements, and pharmaceuticals.
 
 **User Accounts** - Customers can create an account on the website to save their personal information, track their orders, and view their order history.
 
